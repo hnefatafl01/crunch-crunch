@@ -5,11 +5,34 @@
   <head>
     <meta charset="utf-8">
     <title>Crunchoff 2016</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <link href="styles.css">
   </head>
   <body>
-    
+    <header></header>
+    <main>
+      <section class="container inputForm">
+        <form action="">
+          <div class="input-field col s6">
+            <input id="name" type="text" class="validate">
+            <label for="name">Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="age" type="text" class="validate">
+            <label for="age">Age</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="crunchTotal" type="text" class="validate">
+            <label for="crunchTotal">Crunch Total</label>
+          </div>
+          <button class="waves-effect waves-light btn" type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
